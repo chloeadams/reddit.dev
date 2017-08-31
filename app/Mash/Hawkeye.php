@@ -10,8 +10,6 @@ use \App\Avenger;
 | and give it the controller to call when that URI is requested.
 |
 */
-// Test route for query builder lecture
-Route::get('/builder', 'PostsController@testBuilder');
 // The following routes are unrelated to the final Reddit clone example
 Route::get('/', 'HomeController@showWelcome');
 // Resource route for requests for Posts
